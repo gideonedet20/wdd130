@@ -1,7 +1,10 @@
-main {
-    width: 20rem;
-    margin: 1rem;
+nav {
+    background-color: blue;
+    padding: 2px;
+}
 
+main {
+    max-width: 840px;
 }
 
 nav a {
@@ -9,7 +12,6 @@ nav a {
     padding: 10px;
     display: block;
     border: 1px;
-    background-color: blue;
 }
 
 h1 {
@@ -31,7 +33,7 @@ p {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgd(0 0 0 / 0.2);
+    border: 1px solid;
     padding: 1rem;
     background-color: #eee;
     color: #333;
