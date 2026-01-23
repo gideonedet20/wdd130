@@ -30,6 +30,12 @@ footer {
     margin: 0 auto;
 }
 
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
 nav,
 p,
 section,
@@ -44,6 +50,7 @@ article {
 
 .hero {
     position: relative;
+    width: 100%;
 }
 
 .hero img {
@@ -52,7 +59,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
